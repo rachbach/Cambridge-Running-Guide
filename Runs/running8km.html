@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title> 
+        3km Run
+      </title>
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script>
+        function myFunction(id) {
+          var x = document.getElementById(id);
+          if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+          } 
+          else { 
+            x.className = x.className.replace(" w3-show", "");
+          }
+        }
+      </script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+      <link href="https://fonts.googleapis.com/css?family=Lato:10,300,400" rel="stylesheet">
+      <link rel='stylesheet' href='./css/running8km.css'>
+</head>
+
+<body>
+
+<!--Navigation-->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Cambridge Running Guide</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="../Home/index.html">Home</a></li>
+      <li class="active" class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+          Featured Runs<span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a href="running3km.html">3 km</a></li>
+          <li><a href="running5km.html">5 km</a></li>
+          <li><a href="running8km.html">8 km</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+  
+<!--Title Portion-->
+<div id="top_picture" class="container-fluid">
+  <h1 class="text-right">8 kilometer</h1>
+  <h1 class="text-right">Run</h1>
+</div>
+
+<hr>
+
+<!--Information Section-->
+<p>
+This 3 kilometer run is short enough to complete during a study break and features garden and street scenery. Below, suggested starting and ending points are marked. The suggested route, which winds down Sidgwick Avenue, Silver Street, turns on Trumpington passing Kings College Chapel and the Fellows Garden is in the "Suggested Route" drop down section. 
+</p>
+<hr>
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d19564.91669490826!2d0.09349066390608884!3d52.19587803951421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x47d879fa0bbc052f%3A0x669defa8461240d5!2sGrantchester!3m2!1d52.181007199999996!2d0.0932245!4m5!1s0x47d870bd3a57c297%3A0xc1e24e65db5d511e!2s52+Trumpington+Street%2C+Cambridge!3m2!1d52.202075!2d0.1180437!5e0!3m2!1sen!2suk!4v1489418274801" 
+ width="75%" height="400px" frameborder="0" style="border:0"
+ allowfullscreen >
+</iframe>
+
+<hr>
+
+<div class="w3-container">
+  <button onclick="myFunction('suggestedRoute')" class="w3-btn w3-block">
+    Suggested Route
+  </button>
+
+  <div id="suggestedRoute" class="w3-hide w3-container w3-center">
+    <img src="./Photos/8km.jpg" alt="5km run suggested route" width="456" height="354">
+  </div>
+
+  <button onclick="myFunction('information')" class="w3-btn w3-block">
+    Information
+  </button>
+
+  <div id="information" class="w3-hide w3-container w3-center">
+    <table class="table table-hover">
+    <tbody>
+      <tr> 
+        <th>
+          What Surface?
+        </th>
+        <td> 
+          Road/Grass Run
+        </td>
+      </tr>
+       
+      <tr>
+        <th> 
+          Which Colleges is it good for?
+        </th>
+        <td> 
+          King's, St Catherine's, Corpus Christi, Trinty Hall, Clare, Wolfson
+        </td>
+      </tr>
+     
+      <tr>
+        <th> 
+          Highlights  
+        </th>
+        <td> 
+          Grancester Meadows, River
+        </td>
+      </tr>
+    </tbody>
+  </table>   
+  </div>
+</div>
+
+<hr>
+
+
+
+
+</body>
+</html>
+

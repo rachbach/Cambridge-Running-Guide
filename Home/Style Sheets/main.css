@@ -1,0 +1,148 @@
+body {
+	position: relative;
+	background-color: #ffffff;
+	color: #000000;
+	font-family: 'Lato', Helvetica, sans-serif;
+	text-align: center;
+	font-weight: lighter;
+}
+
+h1 {
+	font-family: 'Lato', Helvetica, sans-serif;
+	color: #000000;
+	font-size: 160px;
+}
+
+h2{
+	font-family: 'Lato', Helvetica, sans-serif;
+	color: #000000;
+	font-size: 40px;
+	font-weight: lighter;
+}
+
+h3 {
+	font-family: 'Lato', Helvetica, sans-serif;
+	color: #000000;
+	font-size: 25px;
+	font-weight: lighter;
+}
+
+
+
+
+/* Navbar Styling */
+
+/* navbar */
+.navbar.navbar-default {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  margin-bottom: 0;
+}
+.navbar.navbar-default .navbar-nav > li > a {
+  background-color: #ffffff;
+  color: #000000;
+}
+.navbar.navbar-default .navbar-nav > li > a:hover {
+  color: #66ccff;
+}
+.navbar.navbar-default .navbar-nav > .active,
+.navbar.navbar-default .navbar-nav > .active > a,
+.navbar.navbar-default .navbar-nav > .active > a:hover,
+.navbar.navbar-default .navbar-nav > .active > a:focus {
+  background-color: #ffffff;
+  color: #66ccff;
+}
+.navbar.navbar-default .dropdown-menu {
+  background-color: #ffffff;
+}
+.navbar.navbar-default .dropdown-menu > li > a {
+  color: #000000;
+}
+.navbar.navbar-default .dropdown-menu > li > a:hover,
+.navbar.navbar-default .dropdown-menu>li>a:focus {
+  background-color: #ffffff;
+  color: #66ccff;
+}
+.navbar.navbar-default .navbar-nav li.dropdown.open > .dropdown-toggle,
+.navbar.navbar-default .navbar-nav li.dropdown.active > .dropdown-toggle,
+.navbar.navbar-default .navbar-nav li.dropdown.open.active > .dropdown-toggle {
+  background: #ffffff;
+  color: #66ccff;
+}
+.navbar.navbar-default .navbar-nav>.dropdown>a:hover .caret {
+  border-bottom-color: #ffffff;
+}
+.navbar.navbar-default .navbar-brand {
+  color: #000000;
+}
+
+
+/* Featured Image Styling */
+img {
+	opacity: 1.0;
+	filter: alpha(opacity=50);
+}
+img:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=100);
+}
+
+
+#front-page{
+	padding-top: 0px;
+	height: 500px;
+	color: #000000;
+	background-image: url('images/giphy.gif');
+	background-size: cover; 
+}
+
+
+#featured-runs {
+	padding-top: 10px;
+	height: 350px;
+	color: #000000;
+	background-color: #ffffff;
+}
+
+
+
+/* Social Media Button Styling */
+/* Style all font awesome icons */
+.fa {
+    padding: 40px;
+    font-size: 50px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+    color: #66ccff;
+}
+
+/* Facebook */
+.fa-facebook {
+    color: #000000;
+}
+
+/* Twitter */
+.fa-twitter {
+    color: #000000;
+}
+
+.fa-instagram {
+	color: #000000;
+}
+
+.fa-snapchat {
+	color: #000000;
+}
+
+
+
+
+
+
+/* What is child versus descendent */
